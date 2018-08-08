@@ -57,6 +57,9 @@
           <repoOwner>jsdjayanga</repoOwner>
           <repository>carbon-secvault</repository>
           <traits>
+            <org.jenkinsci.plugins.github__branch__source.BranchDiscoveryTrait>
+              <strategyId>3</strategyId>
+            </org.jenkinsci.plugins.github__branch__source.BranchDiscoveryTrait>
             <jenkins.plugins.git.traits.WipeWorkspaceTrait plugin="git@3.9.1">
               <extension class="hudson.plugins.git.extensions.impl.WipeWorkspace"/>
             </jenkins.plugins.git.traits.WipeWorkspaceTrait>
