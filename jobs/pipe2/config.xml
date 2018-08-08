@@ -37,7 +37,7 @@
         <source class="org.jenkinsci.plugins.github_branch_source.GitHubSCMSource" plugin="github-branch-source@2.3.6">
           <id>7c43d3d9-7e93-49ad-a845-389b67c99198</id>
           <repoOwner>jsdjayanga</repoOwner>
-          <repository>carbon-config</repository>
+          <repository>carbon-secvault</repository>
           <traits>
             <jenkins.plugins.git.traits.WipeWorkspaceTrait plugin="git@3.9.1">
               <extension class="hudson.plugins.git.extensions.impl.WipeWorkspace"/>
